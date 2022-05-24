@@ -1536,15 +1536,14 @@ window.__require = function e(t, o, n) {
             var s = e.lastIndexOf('/'),
             l = e.substring(0, s);
             s = l.lastIndexOf('/'),
-            t = parseInt(l.substring(s + 1, l.length));
+            t = 887;
             var p = i.substring(i.lastIndexOf('//') + 4, i.lastIndexOf('com') + 3);
             - 1 == i.search('/game/') ? this.moreGameUrl = a + c : this.moreGameUrl = a + p
           } else {
             var d = e.substring(e.lastIndexOf('/game/') + 1, e.length).split('/');
-            d.length >= 2 && (t = parseInt(d[1])),
+            t = 887,
             this.moreGameUrl = 'http://m.wesane.com/'
           }
-          t = 887;
           this.gameHttpId = t,
           n.weiSan.log('gameId:', t)
         },
