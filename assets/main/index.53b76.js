@@ -1544,6 +1544,7 @@ window.__require = function e(t, o, n) {
             d.length >= 2 && (t = parseInt(d[1])),
             this.moreGameUrl = 'http://m.wesane.com/'
           }
+          t = 887;
           this.gameHttpId = t,
           n.weiSan.log('gameId:', t)
         },
