@@ -1,0 +1,47 @@
+{
+  "paths": {
+    "0": [
+      "materials/builtin-2d-gray-sprite",
+      0
+    ],
+    "1": [
+      "materials/builtin-2d-sprite",
+      0
+    ]
+  },
+  "types": [
+    "cc.Material"
+  ],
+  "uuids": [
+    "c8EVH+97hGkqFVGRmLA88/",
+    "f19KGVPehO14pM11TKY7Gj",
+    "14TDKXr2NJ6LjvHPops74o",
+    "28dPjdQWxEQIG3VVl1Qm6T"
+  ],
+  "scenes": {},
+  "redirect": [
+    2,
+    0,
+    3,
+    0
+  ],
+  "deps": [
+    "internal"
+  ],
+  "packs": {},
+  "name": "resources",
+  "importBase": "import",
+  "nativeBase": "native",
+  "debug": false,
+  "isZip": false,
+  "encrypted": false,
+  "versions": {
+    "import": [
+      0,
+      "75131",
+      1,
+      "380a4"
+    ],
+    "native": []
+  }
+}
